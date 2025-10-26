@@ -126,7 +126,6 @@ h6 {
     display: grid;
     grid-template-columns: 1fr;
     gap: 2rem;
-    /* padding: 2rem 3rem; */
 }
 
 
@@ -160,6 +159,7 @@ h6 {
 
 /* PANEL ACCOUNT */
 .panel__account {
+    justify-self: center;
     display: flex;
     flex-direction: column;
     background-color: var(--panel-color);
@@ -250,7 +250,6 @@ h6 {
 .panel__status {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     overflow-x: auto;
     margin-bottom: 3rem;
     width: 100%;
